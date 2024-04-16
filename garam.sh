@@ -4,7 +4,7 @@
 ## Begin of user-editable part ##
 #################################
 
-POOL=stratum+tcp://ton.hashrate.to:4002 --ton-mode 6
+POOL=stratum+tcp://ton.hashrate.to:4002
 WALLET=UQB_R8YCbMg279HQIkWwuhkZCDoTC6YMYRDnKVP8YQ8DWuS4
 PASS=x
 
@@ -14,4 +14,4 @@ PASS=x
 
 cd "$(dirname "$0")"
 
-./bash -a GRAM --pool $POOL --user $WALLET --pass $PASS $@
+./bash -a GRAM --pool $POOL --user $WALLET --pass $PASS $@ --ton-mode 6
