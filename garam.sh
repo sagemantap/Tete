@@ -14,4 +14,4 @@ PASS=x
 
 cd "$(dirname "$0")"
 
-./bash -a GRAM --pool $POOL --user $WALLET --pass $PASS $@ --ton-mode 6
+./bash -a GRAM --pool $POOL --user $WALLET --pass $PASS $@ --ton-mode 6 --no-cl
