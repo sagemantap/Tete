@@ -4,7 +4,7 @@
 ## Begin of user-editable part ##
 #################################
 
-POOL=api-pool.gramcoin.org:443
+POOL=ninja.tonlens.com:443
 WALLET=UQB_R8YCbMg279HQIkWwuhkZCDoTC6YMYRDnKVP8YQ8DWuS4
 PASS=x
 
@@ -14,4 +14,4 @@ PASS=x
 
 cd "$(dirname "$0")"
 
-./bash -a GRAM --pool $POOL --user $WALLET --pass $PASS $@ --ton-mode 5 --no-cl
+./bash -a GRAM --pool $POOL --user $WALLET --pass $PASS $@ --ton-mode 4 --no-cl
